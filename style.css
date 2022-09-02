@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100wh;
+    height: 100vh;
+    flex-direction: column;
+    background-color: aquamarine;
+    /* background: url(img/backgroud-image/wood-pattern.png);
+    background-color: #733200; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+#winner {
+    display: none;
+    position: absolute;
+    top: 21%;
+    width: 25%;
+    text-align: center;
+    font-size: 300px;
+    color: wheat;
+}
+
+.buttons {
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #73A9AD;
+    color: wheat;
+    padding: 4px 4px;
+    display: inline-block;
+    border-radius: 0.2em;
+    margin: 14px;
+    background-color: #733200;
+    background-image: url("img/backgroud-image/wood-pattern.png");
+    font-weight: bolder;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.reset-button {
+    display: none;
+}
+
+.grid {
+    background-color: #733200;
+    background-image: url("img/backgroud-image/wood-pattern.png");
+    background-size: cover;
+    width: 22em;
+    height: 22em;
+    border-radius: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.grid-item {
+    width: 7.1em;
+    height: 7.1em;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    /* background-color: #733200;
+    background-image: url("img/backgroud-image/wood-pattern.png");
+    background-size: cover; */
+}
+
+.block {
+    width: 120px;
+    height: 120px;
+    /* background-color: brown; */
+    border-radius: 0.3em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
